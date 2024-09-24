@@ -1,0 +1,11 @@
+{
+  "name": "day1",
+  "version": "1.0.0",
+  "description": "Calculate area of triangle",
+  "main": "AreaRectangle.ts",
+  "scripts": {
+    "start": "tsc AreaRectangle.ts && node AreaRectangle.js"
+  },
+  "author": "Jorge",
+  "license": "ISC"
+}
