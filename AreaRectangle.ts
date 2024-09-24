@@ -1,5 +1,5 @@
-function calculateArea(length: number, width: number): number {
-    return length * width;
+function calculateArea(l: number, width: number): number {
+    return l * width;
 }
 
 // Inputs

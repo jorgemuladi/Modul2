@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "module": "commonjs", // Set the module system to CommonJS
+    "target": "es6",      // You can set this to a suitable version
+    "outDir": "./dist",   // Optional: Specify the output directory for compiled files
+    "rootDir": "./"       // Specify the root directory of the TypeScript files
+  },
+  "include": ["*.ts"],    // Include all TypeScript files in the root directory
+  "exclude": ["node_modules"]
+}
