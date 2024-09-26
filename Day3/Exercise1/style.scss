@@ -1,0 +1,225 @@
+/* General styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Navbar section 1 */
+.navbar1 {
+    background-color: #f5f5f5;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.navbar1 nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar1 nav p {
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.navbar1 nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.navbar1 nav ul li {
+    display: inline;
+}
+
+.navbar1 nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+}
+
+/* Main title */
+h1 {
+    text-align: center;
+    font-size: 48px;
+    letter-spacing: 4px;
+    margin: 20px 0;
+}
+
+/* Navbar section 2 */
+.navbar2 nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 25px;
+}
+
+.navbar2 nav ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Hero image */
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Summer 2021 section */
+.container h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.container p {
+    text-align: center;
+    margin: 10px 0 20px;
+    font-size: 16px;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 30px;
+    border: none;
+    background-color: #333;
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* New Arrivals section */
+.new-arrival h1 {
+    text-align: center;
+    font-size: 28px;
+    margin: 40px 0;
+}
+
+.item-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.item {
+    text-align: center;
+}
+
+.item img {
+    width: 100%;
+    max-width: 250px;
+}
+
+.item-description {
+    font-size: 12px;
+    color: #888;
+    margin-top: 5px;
+}
+
+.item-name {
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+/* Light Layers section */
+.light-layers {
+    background-color: #f5f5f5;
+    padding: 40px 0;
+    margin-top: 50px;
+}
+
+.light-layers .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-box {
+    flex-basis: 50%;
+    padding-right: 20px;
+}
+
+.left-box h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.left-box p {
+    margin-bottom: 20px;
+}
+
+.right-box img {
+    width: 100%;
+    max-width: 350px;
+}
+
+/* New Arrivals for Him */
+.new-arrival-for-him h1 {
+    text-align: center;
+    font-size: 28px;
+    margin: 40px 0;
+}
+
+.new-arrival-for-him .item-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.new-arrival-for-him .item img {
+    width: 100%;
+    max-width: 250px;
+}
+
+/* Pool photo */
+.pool-photo img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 50px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 40px 0;
+}
+
+.footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+
+.footer-title {
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.footer-link {
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.icons-container a img {
+    width: 20px;
+    margin-right: 10px;
+}
